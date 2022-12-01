@@ -6,6 +6,15 @@ let belajar = document.getElementById('belajar');
 let bersama_pembelajar = document.getElementById('bersama-pembelajar');
 let clipboard = document.getElementById('clipboard');
 let parallax = document.getElementById('parallax');
+let yang_diperlukan = document.getElementById('yang-diperlukan');
+let canva = document.getElementById('canva');
+let css = document.getElementById('css');
+let daun = document.getElementById('daun');
+let html = document.getElementById('html');
+let javascript = document.getElementById('javascript');
+let one_line = document.getElementById('one-line');
+let text_editor = document.getElementById('text-editor');
+let bunga = document.getElementById('bunga');
 
 window.addEventListener('scroll', () => {
     let { scrollY } = window;
@@ -15,4 +24,11 @@ window.addEventListener('scroll', () => {
     belajar.style.left = 1.5 * scrollY + 'px';
     bersama_pembelajar.style.left = -0.5 * scrollY + 'px';
     parallax.style.left = -0.1 * scrollY + 'px';
+    text_editor.style.left = 0.5 * scrollY + 'px';
+    canva.style.left = -0.5 * scrollY + 'px';
+    html.style.top = 0.2 * scrollY + 'px';
+    css.style.top = -0.2 * scrollY + 'px';
+    javascript.style.left = 0.4 * scrollY + 'px';
+    daun.style.left = -0.4 * scrollY + 'px';
+    bunga.style.left = 0.4 * scrollY + 'px';
 });
