@@ -41,6 +41,7 @@ body {
 }
 
 #text-editor2 {
+    z-index: 10;
     position: absolute;
     top: 70px;
     font-size: 50px;
@@ -48,6 +49,7 @@ body {
 }
 
 #gambar2 {
+    z-index: 10;
     position: absolute;
     top: 120px;
     font-size: 50px;
@@ -55,6 +57,7 @@ body {
 }
 
 #css2 {
+    z-index: 10;
     position: absolute;
     left: 1450;
     font-size: 50px;
